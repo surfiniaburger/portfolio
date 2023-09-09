@@ -7,13 +7,13 @@ const projects = [
   {
     title: "React Front-End",
     description: 
-      "A responsive on all platform LittleLemon Website",
+      "A responsive on all platform LittleLemon Website (Capstone)",
     getImageSrc: () => require("../images/Mario and Adrian b.jpg"),
   },
   {
     title: "Django Web Framework",
     description:
-      "LittleLemon Website Back-End 🔥️",
+      "LittleLemon Website Back-End 🔥️ (Capstone)",
     getImageSrc: () => require("../images/restauranfood.jpg"),
   },
   {
