@@ -7,7 +7,7 @@ const projects = [
   {
     title: "React Front-End",
     description: 
-      "A responsive LittleLemon Website, including Homepage and booking web pages ",
+      "A responsive on all platform LittleLemon Website",
     getImageSrc: () => require("../images/Mario and Adrian b.jpg"),
   },
   {
@@ -19,7 +19,7 @@ const projects = [
   {
     title: "Advanced HTML and CSS",
     description:
-      "A Responsive Lucky Shrub Homepage",
+      "A Responsive on all platform Lucky Shrub Homepage",
     getImageSrc: () => require("../images/restaurant.jpg"),
   },
   {
@@ -52,6 +52,7 @@ const ProjectsSection = () => {
             key={project.title}
             title={project.title}
             description={project.description}
+            url="https://github.com/surfiniaburger"
             imageSrc={project.getImageSrc()}
           />
         ))}
