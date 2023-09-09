@@ -5,28 +5,28 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
-    description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware",
-    getImageSrc: () => require("../images/photo1.jpg"),
+    title: "React Front-End",
+    description: 
+      "A responsive LittleLemon Website, including Homepage and booking web pages ",
+    getImageSrc: () => require("../images/Mario and Adrian b.jpg"),
   },
   {
-    title: "React Infinite Scroll",
+    title: "Django Web Framework",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
+      "LittleLemon Website Back-End 🔥️",
+    getImageSrc: () => require("../images/restauranfood.jpg"),
   },
   {
-    title: "Photo Gallery",
+    title: "Advanced HTML and CSS",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
+      "A Responsive Lucky Shrub Homepage",
+    getImageSrc: () => require("../images/restaurant.jpg"),
   },
   {
-    title: "Event planner",
+    title: "Fullstack",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
+      "A LittleLemon Website connected to MySql database",
+    getImageSrc: () => require("../images/restaurant chef B.jpg"),
   },
 ];
 
