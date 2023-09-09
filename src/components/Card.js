@@ -19,7 +19,7 @@ const Card = ({ title, description, imageSrc }) => {
       </VStack>
       <HStack mt={4} alignSelf="flex-end">
         <Text fontWeight="bold" color="blue.500">
-          Learn More
+          <a href="https://github.com/surfiniaburger">Learn More</a>
         </Text>
         <FontAwesomeIcon icon={faArrowRight} size="1x" />
       </HStack>
